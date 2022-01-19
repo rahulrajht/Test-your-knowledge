@@ -25,7 +25,10 @@ function Question() {
     function nextQuestion(i){
         if(questions.length-1 === count){
             console.log("Quiz Completed")
-            dispatch(incrementScore())
+            if(questions[count].ans === i+1){
+                dispatch(incrementScore())
+                       
+            }
             navigate('/score', { replace: true })
         }
         else if(questions[count].ans === i+1){
