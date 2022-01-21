@@ -11,7 +11,7 @@ function Score() {
         <Row className="justify-content-md-center text-center mt-5">
           <Col className="column" xs={12} md={8}>
             {" "}
-            <h2>Your Total Score is {score} </h2>{" "}
+            <h3>Your Total Score is {score} </h3>{" "}
           </Col>
         </Row>
       </Container>
