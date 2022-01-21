@@ -2,7 +2,7 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../styles/steps.css"
-const Steps = ({ step1, step2, step3 }) => {
+const Steps = ({ step1, step2 }) => {
   return (
     <Nav className="justify-content-center mb-4 mt-5">
       <Nav.Item>
@@ -21,13 +21,6 @@ const Steps = ({ step1, step2, step3 }) => {
         )}
       </Nav.Item>
 
-      <Nav.Item>
-        {step3 ? (
-          <Link className="link" to="/step3">STEP 3 </Link>
-        ) : (
-          <Nav.Link disabled>STEP 3</Nav.Link>
-        )}
-      </Nav.Item>
     </Nav>
   );
 };

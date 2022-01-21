@@ -13,7 +13,7 @@ function Level() {
 
     function selectLevel(level){
         dispatch(saveLevelDetails(level))
-        navigate('/step3', { replace: true })
+        navigate('/quiz', { replace: true })
     }
 
   return (
