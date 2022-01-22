@@ -1,10 +1,15 @@
 import React from "react";
 import { Col, Container, Row, Card, Button } from "react-bootstrap";
 import "../styles/score.css";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import yolo from "../images/yolotube.png"
+import { useEffect } from "react";
+import { saveLevelDetails } from "../actions/quizAction";
 function Score() {
+
     const {score} = useSelector((state) => state.scoreReducer);
+  
+    
   return (
     <>
       <Container>
