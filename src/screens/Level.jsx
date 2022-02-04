@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image, Card } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import FormContainer from "../components/FormContainer";
 import Steps from "../components/Steps";
 import {useNavigate } from "react-router-dom";

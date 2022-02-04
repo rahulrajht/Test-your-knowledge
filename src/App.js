@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import HomePage from "./components/HomePage";
 import './styles/App.css'
-import {Routes ,Route, Link } from 'react-router-dom'
+import {Routes ,Route } from 'react-router-dom'
 import Language from "./screens/Language";
 import Level from "./screens/Level";
 import Question from "./screens/Question";

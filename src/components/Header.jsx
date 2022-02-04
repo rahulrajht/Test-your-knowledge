@@ -1,4 +1,4 @@
-import { Navbar, Container, Nav, NavLink } from "react-bootstrap";
+import { Navbar, Container, Nav} from "react-bootstrap";
 import "../styles/header.css";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
@@ -50,9 +50,4 @@ function Header() {
     </Navbar>
   );
 }
-const renderer = ({  minutes, seconds}) => {
- 
-    return <span>{minutes}:{seconds}</span>;
-  
-};
 export default Header;
