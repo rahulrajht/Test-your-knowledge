@@ -10,7 +10,7 @@ function HomePage() {
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(saveLevelDetails(0))
-  }, []);
+  }, [dispatch]);
   return (
     <Container>
       <Row className="containers">
